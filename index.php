@@ -178,26 +178,4 @@ squareTriangle($number1, $number2, $number3);
 echo '</br>';echo '</br>';echo '</br>';
 echo '<h2>Задание 7 </h2>';
 
-/*
-echo '<pre>';
-var_dump($monster);
-echo '</pre>';
-*/
 
-function name(){
-    $monsters = array( 'names' =>array( "booooD" => array ("growth" => 35, "weight" => 30, "force" => 39),
-        "dirti_monster" => array ("growth" => 30, "weight" => 32, "force" => 29),
-        "zara_monster" => array ( "growth" => 31, "weight" => 22, "force" => 39),
-        "zenda_monster" => array ( "growth" => 20, "weight" => 20, "force" => 20)
-        )
-    );
-foreach ($monsters as $monster=>$value){
-        echo $value["names"];
-}
-echo '<pre>';
-var_dump($monsters);
-echo '</pre>';
-
-
-}
-name();
