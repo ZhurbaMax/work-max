@@ -177,3 +177,12 @@ squareTriangle($number1, $number2, $number3);
 
 echo '</br>';echo '</br>';echo '</br>';
 echo '<h2>Задание 7 </h2>';
+
+
+
+
+
+echo '<pre>';
+//var_dump($rand_keys);
+echo '</pre>';
+require_once ("functions/fight.php");
