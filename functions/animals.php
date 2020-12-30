@@ -5,3 +5,4 @@ $monsters = ['boooD'         => ['growth' => 30, 'weight' =>33, "force" => 29],
     'zara_monster'  => ['growth' => 37, 'weight' =>37, "force" => 27],
     'zenda_monster' => ['growth' => 30, 'weight' =>33, "force" => 29]
 ];
+

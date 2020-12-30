@@ -1,4 +1,8 @@
 <?php
+include ('class/Animals.php');
+include ('class/Arena.php');
+include ('class/Fighting.php');
+
 echo '<h2>Задание 1 </h2>';
 echo 'Hello word';
 echo '</br>';echo '</br>';echo '</br>';
@@ -177,12 +181,32 @@ squareTriangle($number1, $number2, $number3);
 
 echo '</br>';echo '</br>';echo '</br>';
 echo '<h2>Задание 7 </h2>';
-
-
-
-
-
-echo '<pre>';
-//var_dump($rand_keys);
-echo '</pre>';
 require_once ("functions/fight.php");
+
+echo '</br>';echo '</br>';echo '</br>';
+echo '<h2>Задание 8 </h2>';
+
+echo '<h4>Монстр </h4>';
+
+$namesRand = new Animals();
+$namesRand->getName('boooD');
+$namesRand->getName();
+
+echo '<h4>Арены </h4>';
+$arenaRand = new Arena();
+$arenaRand->getArena('OneArena');
+$arenaRand->getArena();
+echo '</br>';
+$elementFight = new Fighting();
+$animals=['zenda_monster','zara_monster'];
+$arens = 'OneArena';
+
+echo $animals[0] . ' -- Против -- ' . $animals[1];echo '</br>';
+$startFight = new Fighting();
+$ddd = $startFight->startFight($animals,$arens);
+echo $ddd;
+
+
+
+
+
