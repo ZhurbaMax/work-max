@@ -123,6 +123,7 @@ class Fighting
         $ret = $compar2->comparison($sum1,$sum2,$monsters1,$monsters2);
         return $ret;
 }
+
     public function startFight($animal,$arena = Null){
         if (empty($arena)){
             $basicFight = new Fighting();
@@ -137,5 +138,3 @@ class Fighting
         }
 }
 }
-
-
